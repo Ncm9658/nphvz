@@ -1,6 +1,6 @@
-# Knoop vs Zombies
+# New Paltz Humans vs Zombies (NPHvZ)
 
-An open source [Humans vs Zombies](http://humansvszombies.org/) game engine. Find a hosted version of this engine at [http://muzombies.org](http://muzombies.org) and [http://trumanzombies.org](http://muzombies.org).
+Built on [KnoopvsZombies](https://github.com/mikeknoop/knoopvszombies), an open source [Humans vs Zombies](http://humansvszombies.org/) game engine created by [Mike Knoop](http://mikeknoop.com/). Find a hosted version of this engine at [http://muzombies.org](http://muzombies.org) and the New Paltz version at [http://nphvz.com](http://nphvz.com).
 
 ![Knoop vs Zombies in action](http://i.imgur.com/j6ZbQDY.png)
 
@@ -93,7 +93,7 @@ An interface to create and edit upcoming games. Name the game, set start date an
 
 ## Forums
 
-- In house forums that have "human only" and "zombie only" forums for communication.
+- In house forums that have "human only" and "zombie only" forums for communication .
 
 ![Forums](http://i.imgur.com/CLcZj2E.png)
 
