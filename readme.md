@@ -1,6 +1,6 @@
 # New Paltz Humans vs Zombies (NPHvZ)
 
-Built on [KnoopvsZombies](https://github.com/mikeknoop/knoopvszombies), an open source [Humans vs Zombies](http://humansvszombies.org/) game engine created by [Mike Knoop](http://mikeknoop.com/). Find a hosted version of this engine at [http://muzombies.org](http://muzombies.org) and the New Paltz version at [http://nphvz.com](http://nphvz.com).
+Built on [KnoopvsZombies](https://github.com/mikeknoop/knoopvszombies), an open source [Humans vs Zombies](http://humansvszombies.org/) game engine created by [Mike Knoop](http://mikeknoop.com/). You can find the live version of this site up and running at [http://nphvz.com](http://nphvz.com).
 
 ![NPHvZ in action](http://i.imgur.com/CCZNIyV.png)
 
@@ -8,7 +8,7 @@ Built on [KnoopvsZombies](https://github.com/mikeknoop/knoopvszombies), an open 
 
 There are a few moving pieces. The engine is currently designed to run on a LAMP stack.
 
-1. Clone the repo to your server
+1. Clone this repository to your server
 2. Edit knoopvszombies.ini.php to match all your local environment settings
 3. Place the `cron` file commands into your cronjob. Also update the paths in this file to match your server
 4. Set up two new databases, one for the engine and one for the forums. Import the schema from the two `.sql` files in the root folder
@@ -17,7 +17,9 @@ There are a few moving pieces. The engine is currently designed to run on a LAMP
 
 # Motivation
 
-Running the game at the University of Missouri, we indentified several flaws around the game and engine that could be rectified with an improved game engine. This engine introduces several features that assist in running a Humans vs. Zombies game from a player standpoint and a moderator (admin) standpoint.
+For years New Paltz HvZ has used a combination of the official HvZ Source tracker and various Facebook groups to organize our games. This didn't fill all of our needs, however, namely having automated Human and Zombie forums for players to strategize together on.
+
+This site will also allow future webmasters of the club to practice working on a live website and gain real web development experience that will help them in the future. We chose an open-source tracker so students will be able to build upon it and add new features as they need them. NPHvZ.com should grow with the club over time: it will be the ultimate tool for making our game run as smoothly as possible.
 
 # Questions
 
@@ -33,7 +35,7 @@ The game is in "pre game" mode. During this time, players can sign up and join t
 
 Automatically, the game will begin at the date and time the moderator originally chose for the game (CST time by deafult, change in knoopvszombies.ini.php). At this time, the game goes into "in game" mode. All players who were marked as having attended an orientation will be kept alive. Any player who did not attend an orientation will be marked as deceased. Original Zombies are shown as humans on the website until the moderators decide to unhide original zombies through the "Game Progress" admin panel (see below).
 
-The game continues for several days. Every 5 minutes (a cron job, `game_logic.php`) is run to check if anyone is about to die because they haven't been "fed" in 48 (configurable) hours. As zombie players enter codes to confirm kill, the human is automatically marked as a zombie and notified via email, and the reporting zombie will be fed and can feed two other players from a list.
+The game continues for several days. Every 5 minutes (a cron job, `game_logic.php`) is run to check if anyone is about to die because they haven't been "fed" in 48 hours (or whatever period of time is set in the `knoopvszombies.ini.php` file). As zombie players enter codes to confirm kill, the human is automatically marked as a zombie and notified via email, and the reporting zombie will be fed and can feed two other players from a list.
 
 Finally, everone is a zombie or the moderators end the game through a story element. The gameplay progress is manually moved into "post game" by a moderator. At this time, all stats are locked and the game is archived. Moving the game into "post game" cannot be undone.
 
