@@ -13,17 +13,17 @@ There are a few moving pieces. The engine is currently designed to run on a LAMP
 3. Place the `cron` file commands into your cronjob. Also update the paths in this file to match your server
 4. Set up two new databases, one for the engine and one for the forums. Import the schema from the two `.sql` files in the root folder
 5. (You may need to do more work to get the forums set up properly, a starting point is the Vanilla docs: http://vanillaforums.org/docs/installation)
-6. Emails are sent out using the standard PHP email mechanisms so make sure you have all the proper rigging to send emails without them getting flagged as spam.
+6. Emails are sent out using the standard PHP email mechanisms, so make sure you have all the proper rigging to send emails without them getting flagged as spam.
 
 # Motivation
 
-For years New Paltz HvZ has used a combination of the official HvZ Source tracker and various Facebook groups to organize our games. This didn't fill all of our needs, however, namely having automated Human and Zombie forums for players to strategize together on.
+For years, New Paltz HvZ has used a combination of the official HvZ Source tracker and multiple Facebook groups to organize our games. This didn't fill all of our needs, however. We wanted to have complete control over our games from top to bottom. Additionally, this replaces Facebook groups with automated Human and Zombie forums on so zombies don't have to be manually removed from secret human groups like they did in the past.
 
-This site will also allow future webmasters of the club to practice working on a live website and gain real web development experience that will help them in the future. We chose an open-source tracker so students will be able to build upon it and add new features as they need them. NPHvZ.com should grow with the club over time: it will be the ultimate tool for making our game run as smoothly as possible.
+Most importantly, this site will allow future webmasters of the club to practice working on a live website and gain real web development experience. Having it on Github will also teach them to collaborate with other team members and learn how to use version control software. We chose an open-source tracker so students will be able to build upon it and add new features as they need them. NPHvZ.com should grow with the club over time: it will be the ultimate tool for making our game run as smoothly as possible.
 
 # Questions
 
-Email me: mikeknoop@gmail.com I'll be happy to help!
+If you need to contact the current webmaster, our [Facebook page](https://www.facebook.com/NPHVZ) is your best bet for getting in touch with our current eboard. If you have more technical questions, feel free to email the original webmaster of this site, Jon Glover, at juandglover@gmail.com.
 
 # Overview
 
