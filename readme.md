@@ -99,4 +99,4 @@ An interface to create and edit upcoming games. Name the game, set start date an
 
 # License
 
-Knoop vs Zombies is available under the MIT license.
+Knoop vs Zombies is available under the [MIT license](http://en.wikipedia.org/wiki/MIT_License).
