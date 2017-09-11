@@ -53,7 +53,7 @@
 <?php if ($_GET['state'] != 'pending'):?>
   
   <div class="signup_header_text">
-  Humans vs. Zombies at Mizzou requires all players to link their accounts with a <span class="accent_color bold">real photo and name</span> before they may join a game. This helps deter player conflicts and serves as a great identity system to recognize fellow teammates. Name and photo are only shown to other players. There are two methods.
+  Humans vs. Zombies at New Paltz requires all players to link their accounts with a <span class="accent_color bold">real photo and name</span> before they may join a game. This helps deter player conflicts and serves as a great identity system to recognize fellow teammates. Name and photo are only shown to other players. There are two methods.
   </div>
 
 	<div class="signup_header_text bold">
@@ -61,13 +61,13 @@
 	</div>
 
   <div class="signup_header_text">
-  This will automatically connect your new Mizzou Zombies account with whomever is currently logged into Facebook on this computer. You will be asked to authorize our Facebook application so we can access your username and photo. Before you proceed, make sure <span class="bold">you</span> are logged into Facebook and not someone else.
+  This will automatically connect your new NPHvZ account with whomever is currently logged into Facebook on this computer. You will be asked to authorize our Facebook application so we can access your username and photo. Before you proceed, make sure <span class="bold">you</span> are logged into Facebook and not someone else.
   </div>
   
   <div class="signup_header_text">
     <div class="signup_header_text">
       <div class="fb_button fb_button_medium">
-        <a class="fb_button_link" href="https://graph.facebook.com/oauth/authorize?client_id=<?php echo FB_APP_ID?>&redirect_uri=http://muzombies.org/oauth/init">
+        <a class="fb_button_link" href="https://graph.facebook.com/oauth/authorize?client_id=<?php echo FB_APP_ID?>&redirect_uri=http://nphvz.com/oauth/init">
             <span class="fb_button_text">Connect with Facebook</span>
         </a>
       </div>
@@ -127,7 +127,7 @@
   <div class="signup_header_text">
     <div class="signup_header_text signup_header_2col_left">
       <div class="signup_header_fb_button fb_button fb_button_medium">
-        <a class="fb_button_link" href="https://graph.facebook.com/oauth/authorize?client_id=<?php echo FB_APP_ID?>&redirect_uri=http://muzombies.org/oauth/init">
+        <a class="fb_button_link" href="https://graph.facebook.com/oauth/authorize?client_id=<?php echo FB_APP_ID?>&redirect_uri=http://nphvz.com/oauth/init">
             <span class="fb_button_text">Connect with Facebook</span>
         </a>
       </div>

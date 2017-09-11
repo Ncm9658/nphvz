@@ -1,79 +1,93 @@
 #signup_process_container
 {
-  float:            right;
-  margin:           20px 0;
+  clear: both;
+  margin: auto;
   background:       #F2F2F2;
-  border:           2px solid #DDDDDD;
-  min-height:       400px;
-  width:            220px;
+  padding: 15px 5px;
+  border-radius:    5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  text-align: center;
+  height: auto;
+  overflow: hidden;
 }
 
 #signup_process_title
 {
-  font-family:    'nu-century-gothic', 'sans-serif';
-  font-size:      25px;
-  letter-spacing: -1px;
-  word-spacing:   -5px;
+  font-size: 20px;
   margin:         10px 0 0 10px;
+  overflow: hidden;
 }
 
 #signup_process_container ol
 {
-  font-size:      16px;
+  font-size: 12px;
   line-height:    30px;
-  margin:         30px 0 30px 0;
-  list-style-type:decimal;
-  list-style-position:inside;
-  width:            220px;
+  margin: auto;
+  list-style: none;
+  height: auto;
+  /* padding: 15px 0; */
 }
 
 #signup_process_container li
 {
-  padding-left:     10px;
-  padding-right:    10px;
+  padding: 0 4px;
+  border-radius: 5px;
+  background: #AAAAAA;
+  margin: 2px 2px;
+  float: left;
+  color: #FCFFFB;
+}
+
+#signup_process_container li::before {
 }
 
 .process_highlight
 {
-  background:       #fff7d9;
-  border-top:       1px solid #cdc57a;
-  border-bottom:    1px solid #cdc57a;
+  background: #FC974D!important;
 }
 
 
 #signup_container
 {
-  float:            left;
-  margin:           20px 0;
-  padding:          10px 0 15px 15px;
+  margin: 0px auto;
   min-height:       400px;
-  width:            575px;
+  width: 600px;
+  max-width: 100%;
+}
+
+#content {
+    max-width: 600px;
+    margin: auto;
 }
 
 #signup_title
 {
-  font-family:    'nu-century-gothic', 'sans-serif';
-  font-size:      25px;
-  letter-spacing: -1px;
-  color:          #222222;
-  word-spacing:   -5px;
-  width:            550px;
-  padding:         0 0 2px 3px;
-  margin:          0 0 10px 0;
-  border-bottom:   2px solid #222222;
+  font-size: 25px;
+  color: #222222;
+  padding: 15px 10%;
+  margin: auto;
+  border-radius: 5px;
+  text-transform: capitalize;
+  background: #f2f2f2;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  text-align: center;
+}
+
+#signup_title.accent_color {
 }
 
 #signup_status
 {
-  width:            533px;
-  margin:           20px 0 0 0;
-  padding:          10px;
-  background:       #fff7d9;
-  border-top:       1px solid #cdc57a;
-  border-bottom:    1px solid #cdc57a; 
-  text-align:       center;
-  font-size:        13px;
-  line-height:      15px;
+  width:          533px;
+  margin:         20px 0 0 0;
+  padding:        10px;
+  background:     #CCDFE8;
+  text-align:     center;
+  font-size:      13px;
+  line-height:    15px;
+  border-radius:  5px;
 }
 
 #signup_form, #newpassword_form
@@ -106,14 +120,15 @@
 
 .signup_textbox
 {
-  position:         absolute;
-  top:              50%;
-  margin-top:       -10px;
-  
-  height:           16px;
-  width:            335px;
-  padding:          2px;
-  font-size:        14px;
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  height: 16px;
+  width: 335px;
+  padding: 2px 6px;
+  font-size: 14px;
+  border-radius: 4px;
+  border-image: none;
 }
 
 
@@ -130,9 +145,9 @@
 }
 
 @-moz-document url-prefix() {
-	.signup_button {
-		padding:      2px 20px 4px 20px;
-	}
+  .signup_button {
+    padding:      2px 20px 4px 20px;
+  }
 }
 
 .signup_button:hover
@@ -149,7 +164,10 @@
 
 .signup_footer_text
 {
-  margin:         15px 0;
+  clear: both;   float: none;   width: 960px;   max-width: 100%;   
+  margin: 10px auto;   font-size: 14px;   text-align: center;   padding: 8px 0;   
+  height: auto;   
+  border-radius: 5px;   background: #CCDFE8; };
 }
 
 .signup_header_view_available
@@ -166,11 +184,13 @@
 
 .signup_header_text
 {
-
-  padding:        0 20px 0 3px;
-  margin:         15px 0 15px 0;
+  margin: 15px 0px;
   line-height:    18px;
   font-size:      14px;
+  
+
+
+  padding: 10px;
 }
 
 .signup_header_large
@@ -241,7 +261,6 @@
 #body_header_nav_container
 {
   float:          right;
-  margin:         17px 10px;
   color:          #222222;
   font-size:      14px;
 }

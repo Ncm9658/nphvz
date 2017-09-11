@@ -11,13 +11,13 @@
 </div>
 
 <div class="signup_header_large">
-  We strongly recommend you whitelist our email address, mailer@muzombies.org so that we can send you email without going to your spam box.
+  We strongly recommend you whitelist our email address, newpaltzhvz@gmail.com so that we can send you email without going to your spam box.
 </div>
 
 <div class="signup_header_large">
   For your convienence, here are links to common email providers:
   <ul>
-  <li><a class="accent_color" href="http://mail.missouri.edu">University of Missouri Webmail</a></li>
+  <li><a class="accent_color" href="http://mail.hawkmail.newpaltz.edu/">Hawkmail (Brings you to Gmail login)</a></li>
   <li><a class="accent_color" href="https://mail.google.com/mail/">Gmail</a></li>
   <li><a class="accent_color" href="http://mail.yahoo.com/">Yahoo Mail</a></li>
   </ul>

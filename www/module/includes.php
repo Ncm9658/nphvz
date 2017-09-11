@@ -28,7 +28,7 @@ require DOCUMENT_ROOT.'/lib/class/Mail.php';
 require DOCUMENT_ROOT.'/lib/class/Misc.php';
 
 // Handles Admin
-// require DOCUMENT_ROOT.'/lib/class/Admin.php';
+require DOCUMENT_ROOT.'/lib/class/Admin.php';
 
 // Handles CURL interaction with Facebook Graph API
 require DOCUMENT_ROOT.'/lib/class/Curl.php';
@@ -62,7 +62,7 @@ require DOCUMENT_ROOT.'/www/client/twitter.php';
  $GLOBALS['Mail'] = new Mail();
  $GLOBALS['Misc'] = new Misc();
  $GLOBALS['Curl'] = new Curl();
- //$GLOBALS['Admin'] = new Admin();
+ $GLOBALS['Admin'] = new Admin();
  
  $GLOBALS['Twitter'] = new Twitter(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET, TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET);
  

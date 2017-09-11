@@ -12,10 +12,10 @@ Contact Vanilla Forums Inc. at support [at] vanillaforums [dot] com
  * The Database object contains connection and engine information for a single database.
  * It also allows a database to execute string sql statements against that database.
  *
- * @author Todd Burry
+ * @author    Todd Burry
  * @copyright 2003 Mark O'Sullivan
- * @license http://www.opensource.org/licenses/gpl-2.0.php GPL
- * @version @@GARDEN-VERSION@@
+ * @license   http://www.opensource.org/licenses/gpl-2.0.php GPL
+ * @version   @@GARDEN-VERSION@@
  * @namespace Garden.Database
  */
 
@@ -42,13 +42,12 @@ class Gdn_Database {
    /** @var PDO The connectio to the database. */
    protected $_Connection = NULL;
    
-   
    protected $_SQL = NULL;
    
    protected $_Structure = NULL;
    
-   /** Get the PDO connection to the database.
-    * @return PDO The connection to the database.
+   /**  Get the PDO connection to the database.
+    *   @return PDO The connection to the database.
     */
    public function Connection() {
       if(!is_object($this->_Connection)) {

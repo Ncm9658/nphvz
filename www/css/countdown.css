@@ -5,12 +5,12 @@
 
 #countdown_container
 {
-  cursor:         pointer;
-  width:          100%;
-  margin:         5px 0 5px 0;
-  height:         75px;
-  border:         1px solid #CCCCCC;
-  background:     url("../img/signup_bg.png") repeat-x top left;
+  cursor:           pointer;
+  width:            100%;
+  margin:           0 auto 15px auto;
+  height:           75px;
+  background-color: #CCDFE8;
+  border-radius:    10px;
 }
 
 #cd_timer_container
@@ -23,18 +23,27 @@
 {
   margin:         3px;
   font-size:      13px;
-  display: none;
+  display:        none;
 }
 
-#cd_human_container, #cd_zombie_container, #cd_deceased_container
+#player_counter_container{
+  float:          right;
+}
+
+#cd_deceased_container, #cd_zombie_container, #cd_human_container 
 {
   float:          left;
-  width:          140px;
+  width:          125px;
+  height:         auto;
+}
+
+#cd_human_container img, #cd_zombie_container img, #cd_deceased_container img{
+  padding-top:    4px;
 }
 
 .cd_timer_subtitle, .cd_player_subtitle
 {
-  margin:         8px 1px 0 1px;
+  margin:         8px 1px 0 5px;
   font-size:      10px;
 }
 
@@ -43,7 +52,6 @@
   
   font-size:      50px;
   font-weight:    bold;
-  font-family:    'nu-century-gothic', 'sans-serif';
 }
 
 .cd_timer_value

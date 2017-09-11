@@ -1,14 +1,28 @@
+
+
+.embed-container
+{
+  width: auto;
+  height: 500px;
+}
+
 .odd
 {
-  border-top:     1px solid #CCCCCC;
-  border-bottom:  1px solid #CCCCCC;
-  background:     #EEEEEE;
+  border-radius:  10px;
+  background:     #CCDFE8;
   padding:        10px 20px;
 }
 
 .even
 {
+  border-radius:  10px;
+  background:     #FFFFFF;
   padding:        10px 20px;
+}
+
+body
+{
+   background: #242424;  
 }
 
 #about
@@ -31,7 +45,7 @@
   font-size:      28px;
   line-height:    16px;
   letter-spacing: -1.5px;
-  padding:         0 0 10px 0;     
+  padding:        20px 0;     
 }
 
 .about_picture_container

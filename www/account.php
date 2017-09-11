@@ -229,74 +229,164 @@
           		 	<td>
           		 		<?php 
           		 		if ($ta_minutes!=0 || $ta_hours!=0 || $ta_days!=0) {
-          		 			echo '<img src="/knoopvszombies/www/img/veteran1.png" alt="Played at least one game of HvZ" title="Played at least one game of HvZ"</td>';
+          		 			echo '<img src="/img/veteran1.png" alt="Played at least one game of HvZ" title="Played at least one game of HvZ"</td>';
 						} else{
-							echo '<img src="/knoopvszombies/www/img/veteran1_not.png" alt="Play one game of HvZ" title="Play at least one game of HvZ"</td>';
+							echo '<img src="/img/veteran1_not.png" alt="Play one game of HvZ" title="Play at least one game of HvZ"</td>';
 						}
 						?>
           		 	<td>
           		 		<?php 
-          		 		if ($historical['zombie_kills']!=0) {
-          		 			echo '<img src="/knoopvszombies/www/img/zombie_kill1.png" alt="Killed humans during a game of HvZ" title="Killed ' . $historical['zombie_kills'] .' humans in HvZ"</td>';
+          		 		if ($historical['zombie_kills'] > 0) {
+          		 			echo '<img src="/img/zombie_kill1.png" alt="Killed humans during a game of HvZ" title="Killed ' . $historical['zombie_kills'] .' humans in HvZ"</td>';
 						} else{
-							echo '<img src="/knoopvszombies/www/img/zombie_kill1_not.png" alt="Kill at least 1 human during HvZ" title="Kill at least 1 human during a game of HvZ"</td>';
+							echo '<img src="/img/zombie_kill1_not.png" alt="Kill at least 1 human during HvZ" title="Kill at least 1 human during a game of HvZ"</td>';
 						}
 						?>
 				   </td>
           		 		<td>
           		 			<?php 
           		 		if ($user['squad_name']!='') {
-          		 			echo '<img src="/knoopvszombies/www/img/squad_joined.png" alt="Joined a squad for HvZ" title="Member of squad ' . $user['squad_name'] .'"</td>';
+          		 			echo '<img src="/img/squad_joined.png" alt="Joined a squad for HvZ" title="Member of squad ' . $user['squad_name'] .'"</td>';
 						} else{
-							echo '<img src="/knoopvszombies/www/img/squad_joined_not.png" alt="Join a squad" title="Join a squad"</td>';
+							echo '<img src="/img/squad_joined_not.png" alt="Join a squad" title="Join a squad"</td>';
 						}
 						?>
           		 		</td>
           		 		<td>
           		 			<?php 
           		 		if ($user['privileges']!='') {
-          		 			echo '<img src="/knoopvszombies/www/img/moderator.png" alt="You are a moderator for HvZ" title="You are a moderator of HvZ!"</td>';
+          		 			echo '<img src="/img/moderator.png" alt="You are a moderator for HvZ" title="You are a moderator of HvZ!"</td>';
 						} else{
-							echo '<img src="/knoopvszombies/www/img/moderator_not.png" alt="Become a moderator" title="Become a moderator of HvZ"</td>';
+							echo '<img src="/img/moderator_not.png" alt="Become a moderator" title="Become a moderator of HvZ"</td>';
 						}
 						?>
 						</td>
 						<td>
           		 			<?php 
           		 		if ($user['exceptional_user']=='1') {
-          		 			echo '<img src="/knoopvszombies/www/img/exceptional_player.png" alt="Recognized for outstanding conduct" title="Recognized for outstanding conduct"</td>';
+          		 			echo '<img src="/img/exceptional_player.png" alt="Recognized for outstanding conduct" title="Recognized for outstanding conduct"</td>';
 						} else{
-							echo '<img src="/knoopvszombies/www/img/exceptional_player_not.png" alt="Become an outstanding player" title="Become an outstanding player"</td>';
+							echo '<img src="/img/exceptional_player_not.png" alt="Become an outstanding player" title="Become an outstanding player"</td>';
 						}
 						?>
 						</td>
 						<td>
           		 			<?php 
           		 		if ($user['commend_send']==6) {
-          		 			echo '<img src="/knoopvszombies/www/img/commend_send_not.png" alt="Use the commend button on another profile" title="Use the commend button on another profile"</td>';
+          		 			echo '<img src="/img/commend_send_not.png" alt="Use the commend button on another profile" title="Use the commend button on another profile"</td>';
 						 }else{
-							echo '<img src="/knoopvszombies/www/img/commend_send.png" alt="Commended another player" title="You have commended ' . (6-$user['commend_send']) . ' times!"</td>';
+							echo '<img src="/img/commend_send.png" alt="Commended another player" title="You have commended ' . (6-$user['commend_send']) . ' times!"</td>';
 						}
 						?>
 						</td>
 						<td>
           		 			<?php 
           		 		if ($user['commend_recieve_friendly']!=0) {
-          		 			echo '<img src="/knoopvszombies/www/img/commend_friendly.png" alt="Outstanding Friendliness" title="You have been commended '.$user['commend_recieve_friendly'].' times for friendliness"</td>';
+          		 			echo '<img src="/img/commend_friendly.png" alt="Outstanding Friendliness" title="You have been commended '.$user['commend_recieve_friendly'].' times for friendliness"</td>';
 						 }else{
-							echo '<img src="/knoopvszombies/www/img/commend_friendly_not.png" alt="Commended another player" title="Be commended for outstanding friendliness by another player"</td>';
+							echo '<img src="/img/commend_friendly_not.png" alt="Commended another player" title="Be commended for outstanding friendliness by another player"</td>';
 						}
 						?>
 						</td>
 						<td>
           		 		<?php 
           		 		if ($user['commend_recieve_teamwork']!=0) {
-          		 			echo '<img src="/knoopvszombies/www/img/commend_teamwork.png" alt="Outstanding Teamwork" title="You have been commended '.$user['commend_recieve_teamwork'].' times for teamwork"</td>';
+          		 			echo '<img src="/img/commend_teamwork.png" alt="Outstanding Teamwork" title="You have been commended '.$user['commend_recieve_teamwork'].' times for teamwork"</td>';
 						 }else{
-							echo '<img src="/knoopvszombies/www/img/commend_teamwork_not.png" alt="Outstanding Teamwork" title="Be commended for outstanding teamwork by another player"</td>';
+							echo '<img src="/img/commend_teamwork_not.png" alt="Outstanding Teamwork" title="Be commended for outstanding teamwork by another player"</td>';
 						}
 						?>
 						</td>
+            <td>
+                  <?php
+                  if ($historical['zombie_kills'] > 10) {
+                    echo '<img src="/img/achievements_2016/10_tags_in_a_game.jpg" alt="Got 10 tags in a game" title="Got 10 Tags In A Game"</td>';
+                  } else{
+                    echo '<img src="/img/achievements_2016/10_tags_in_a_game_not.jpg" alt="Get 10 tags in a game" title="Get 10 Tags In A Game"</td>';
+                  }
+                  ?>
+            </td>
+            <td>
+                  <?php
+                  if ($user['costume_party']=='1') {
+                    echo '<img src="/img/achievements_2016/costume_party.jpg" alt="Dressed up in Costume for a mission" title="Dressed up in Costume for a mission"</td>';
+                  } else{
+                    echo '<img src="/img/achievements_2016/costume_party_not.jpg" alt="Dress up in Costume for a mission" title="Dress up in Costume for a mission"</td>';
+                  }
+                  ?>
+            </td>
+            <td>
+                  <?php
+                  if ($user['executive_order']=='1') {
+                    echo '<img src="/img/achievements_2016/executive_order.jpg" alt="Tagged a Eboard Member" title="Tagged a Eboard Member"</td>';
+                  } else{
+                    echo '<img src="/img/achievements_2016/executive_order_not.jpg" alt="Tag a Eboard Member" title="Tag a Eboard Member"</td>';
+                  }
+                  ?>
+            </td>
+            <td>
+                  <?php
+                  if ($user['leftovers']=='1') {
+                    echo '<img src="/img/achievements_2016/leftovers.jpg" alt="Got 5 assist" title="Got 5 assist"</td>';
+                  } else{
+                    echo '<img src="/img/achievements_2016/leftovers_not.jpg" alt="Get 5 assist" title="Get 5 assist"</td>';
+                  }
+                  ?>
+            </td>
+            <td>
+                  <?php
+                  if ($user['planner']=='1') {
+                    echo '<img src="/img/achievements_2016/planner.jpg" alt="Became a member of Content Committee" title="Became a member of Content Committee"</td>';
+                  } else{
+                    echo '<img src="/img/achievements_2016/planner_not.jpg" alt="Become a member of Content Committee" title="Become a member of Content Committee"</td>';
+                  }
+                  ?>
+            </td>
+            <td>
+                  <?php
+                  if ($user['simulated_travel']=='1') {
+                    echo '<img src="/img/achievements_2016/simulated_travel.jpg" alt="Attended a New Paltz Invitational" title="Attended a New Paltz Invitational"</td>';
+                  } else{
+                    echo '<img src="/img/achievements_2016/simulated_travel_not.jpg" alt="Attend a New Paltz Invitational" title="Attend a New Paltz Invitational"</td>';
+                  }
+                  ?>
+            </td>
+            <td>
+                  <?php
+                  if ($user['steal_the_bacon']=='1') {
+                    echo '<img src="/img/achievements_2016/steal_the_bacon.jpg" alt="Completed a side objective during a mission" title="Completed a side objective during a mission"</td>';
+                  } else{
+                    echo '<img src="/img/achievements_2016/steal_the_bacon_not.jpg" alt="Complete a side objective during a mission" title="Complete a side objective during a mission"</td>';
+                  }
+                  ?>
+            </td>
+            <td>
+                  <?php
+                  if ($user['that_was_quick']=='1') {
+                    echo '<img src="/img/achievements_2016/that_was_quick.jpg" alt="Died within an hour of kickoff" title="Died within an hour of kickoff"</td>';
+                  } else{
+                    echo '<img src="/img/achievements_2016/that_was_quick_not.jpg" alt="Die within an hour of kickoff" title="Die within an hour of kickoff"</td>';
+                  }
+                  ?>
+            </td>
+            <td>
+                  <?php
+                  if ($user['the_wanderer']=='1') {
+                    echo '<img src="/img/achievements_2016/the_wanderer.jpg" alt="Attended an Invitational" title="Attended an Invitational"</td>';
+                  } else{
+                    echo '<img src="/img/achievements_2016/the_wanderer_not.jpg" alt="Attend a Invitational" title="Attended a Invitational"</td>';
+                  }
+                  ?>
+            </td>
+            <td>
+                  <?php
+                  if ($user['thunderdome']=='1') {
+                    echo '<img src="/img/achievements_2016/thunderdome.jpg" alt="Won a Thunderdome" title="Won a Thunderdome"</td>';
+                  } else{
+                    echo '<img src="/img/achievements_2016/thunderdome_not.jpg" alt="Win a Thunderdome" title="Win a Thunderdome"</td>';
+                  }
+                  ?>
+            </td>
           		 	</tr>
           		 </table>
           		 <?php
@@ -328,7 +418,7 @@
                     
           <div id="account_container">
             <div id="account_title">
-                <?php echo $user['name']; ?> <?php if ($_SESSION['admin']) echo '('.$user['uid'].')'; ?> <?php if ($user['using_fb']) echo '<a class="accent_color" href="//www.facebook.com/profile.php?id='.$user['fb_id'].'">(View Facebook Profile)</a>'; ?>
+                <?php echo $user['name']; ?> <?php if ($_SESSION['admin']) echo '('.$user['uid'].')'; ?> <?php if ($user['using_fb']) echo '<a class="accent_color" href="//www.facebook.com/'.$user['fb_id'].'">(View Facebook Profile)</a>'; ?>
             </div>
 
             <div class="account_content">

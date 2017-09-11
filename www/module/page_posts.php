@@ -1,11 +1,15 @@
-<div id="page_posts_title">
-Recent <span class="accent_color">Updates</span>
+<div id="whatis_title">Recent Updates</div>
+
+<div class="twitter_container">
+  <a class="twitter-timeline" href="https://twitter.com/nphvz" data-widget-id="580881091835252738">Tweets by @nphvz</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
 
-<?php
+<!--
+<?php /*
   $page_posts = $GLOBALS['Wall']->GetPostsByPage();
-  $wall = $GLOBALS['Wall']->ParsePosts($page_posts);
-  
+  $wall =       $GLOBALS['Wall']->ParsePosts($page_posts);
+
   if (is_array($wall))
   {
     $i = 0;
@@ -64,9 +68,9 @@ Recent <span class="accent_color">Updates</span>
       }
       $i++;
     }
-  }
+  } */
 ?>
 
 <div id="page_posts_more">
-  <a target="_new" href="http://www.facebook.com/<?php echo FB_PAGE_NAME;?>">Vew more updates...</a>
-</div>
+  <a target="_new" href="http://www.facebook.com/<?php //echo FB_PAGE_NAME;?>">View more updates on Facebook</a>
+</div> -->

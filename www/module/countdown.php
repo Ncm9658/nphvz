@@ -34,34 +34,31 @@
     </div>
   </div> <!-- cd_timer_container -->
 
-  <div id="cd_human_container">
-    <div id="cd_humans_count" class="cd_player_value accent_color">
-      <?php echo $playerCounts['humans']; ?>
-    </div>
-    <div id="cd_humans_title" class="cd_player_subtitle accent_color">
-      Humans
-    </div>
-  </div> <!-- cd_human_container -->
+  <div id="player_counter_container">
+    <div id="cd_human_container">
+      <div id="cd_humans_count" class="cd_player_value accent_color">
+        <?php echo $playerCounts['humans']; ?>
+      </div>
+      <img src="/img/counter/counter-human.png" alt="Humans"/>
+    </div> <!-- cd_human_container -->
 
-  <div id="cd_zombie_container">
-    <div id="cd_zombies_count" class="cd_player_value accent_color">
-      <?php echo $playerCounts['zombies']; ?>
-    </div>
-    <div id="cd_zombies_title" class="cd_player_subtitle accent_color">
-      Zombies
-    </div>
-  </div> <!-- cd_zombie_container -->
+    <div id="cd_zombie_container">
+      <div id="cd_zombies_count" class="cd_player_value accent_color">
+        <?php echo $playerCounts['zombies']; ?>
+      </div>
+      <img src="/img/counter/counter-zombie.png" alt="Zombies"/>
+    </div> <!-- cd_zombie_container -->
+    
+    <div id="cd_deceased_container">
+      <div id="cd_deceased_count" class="cd_player_value accent_color">
+        <?php echo $playerCounts['deceased']; ?>
+      </div>
+      <img src="/img/counter/counter-dead.png" alt="Dead"/>
+    </div> <!-- cd_deceased_container -->
   
-  <div id="cd_deceased_container">
-    <div id="cd_deceased_count" class="cd_player_value accent_color">
-      <?php echo $playerCounts['deceased']; ?>
-    </div>
-    <div id="cd_deceased_title" class="cd_player_subtitle accent_color">
-      Deceased
-    </div>
-  </div> <!-- cd_deceased_container -->
-  
-  <div class="clearfix"></div> 
+    <div class="clearfix"></div> 
+  </div><!-- #player_counter_container -->
+
   <script type="text/javascript">
   <!--
     <?php

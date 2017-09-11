@@ -1,0 +1,36 @@
+uid null
+email null
+password null
+lost_pw_has null
+fb_id null
+using_fb 1
+admin 0
+privileges null
+name null
+phone null
+code_of_conduct 0
+liability_waiver null
+active_game 0
+active_squad 0
+exceptional_user 0
+commend_send 6
+commend_recieve_friendly 0
+commend_recieve_teamwork 0
+squad_name null
+created null
+email_confirmed 0
+email_confirmed_hash null
+approved 0
+forum_privilieges member
+-----------Add-On---------
+costume_party 0
+executive_order 0
+leftovers 0
+planner 0
+simulated_travel 0
+steal_the_bacon 0
+that_was_quick 0
+the_wanderer 0
+thunderdome 0
+
+

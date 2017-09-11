@@ -1,9 +1,9 @@
   <div id="joingame_title">
-    <span class="accent_color">Current and Upcoming</span> HvZ Mizzou Games
+    <span class="accent_color">Current and Upcoming</span> New Paltz HvZ Games
   </div>
 
   <div class="joingame_header">
-    <p>Below is a list of current and upcoming Humans vs. Zombies games at Mizzou. To participate in a game you must join it and receive your secret game ID. Note you can only join games which are not already in progress. If you don't see any games to join, check back shortly and we will add a game for next semester.</p>
+    <p>Below is a list of current and upcoming Humans vs. Zombies games at SUNY New Paltz. To participate in a game you must join it and receive your secret game ID number. Note that you can only join games which are not already in progress. If you would like to join a game in process, please contact a member of the E-Board.</p>
   </div>
 
   <div class="joingame_content">

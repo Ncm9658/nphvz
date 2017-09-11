@@ -26,17 +26,15 @@
   <?php endif ?>
     
   <div class="signup_body_text">
-  Mizzou Humans vs. Zombies Code of Coduct
+    New Paltz Humans vs. Zombies Code of Coduct
   </div>
 
   <div class="signup_body_text">
-  1 . By signing up for the Humans vs. Zombies game, I agree to act in accordance with all laws (local, state
-  and federal), and to act within the University of Missouri code of conduct.
+  1 . By signing up for the Humans vs. Zombies game, I agree to act in accordance with all laws (local, state and federal), and to act within the SUNY New Paltz code of conduct.
   </div>
 
   <div class="signup_body_text">
-  2. By signing up for the Humans vs. Zombies game, I agree to take no action which would cause myself
-  or others bodily harm, or result in the loss, damage, or destruction of property.
+  2. By signing up for the Humans vs. Zombies game, I agree to take no action which would cause myself or others bodily harm, or result in the loss, damage, or destruction of property.
   </div>
 
   <div class="signup_body_text">
@@ -45,45 +43,31 @@
   </div>
 
   <div class="signup_body_text">
-  4. By signing up for the Humans vs. Zombies game, I understand that if I violate any laws (local, state or
-  federal) or the MU code of conduct as part of my participation in the Humans vs. Zombies game, I will
-  likely be removed from the game and may be reported to Public Safety.
+  4. By signing up for the Humans vs. Zombies game, I understand that if I violate any laws (local, state or federal) or the SUNY New Paltz code of conduct as part of my participation in the Humans vs. Zombies game, I will be subject to review for further gameplay, both in any active games and any future games.
   </div>
 
   <div class="signup_body_text">
-  5. By signing up for the Humans vs. Zombies game, I agree to forgo the use of an automobile for
-  purposes related to Humans vs. Zombies game. I understand that interpretation of this rule is left to the
-  discretion of the moderators of Humans vs. Zombies who may exercise broad latitude in defining “use of
-  an automobile for purposes related to the Humans vs. Zombies game.” Use of a car will result in removal
-  from the game.
+  5. By signing up for the Humans vs. Zombies game, I agree that I will not use an automobile for purposes related to Humans vs. Zombies game. I am however allowed to use a watercraft, so long as it is not in water, and a Segway, if I'm the kind of nerd that owns one of those.
   </div>
 
   <div class="signup_body_text">
-  6. By signing up for the Humans vs. Zombies game, I agree to demonstrate respect for all players and
-  non-players alike. I understand that discharging a Nerf-style toy at a non-player is grounds for removal
-  from the game.
+  6. By signing up for the Humans vs. Zombies game, I agree to demonstrate respect for all players and non-players alike. I understand that discharging a Nerf-style blaster at a non-player is grounds for removal from the game.
   </div>
 
   <div class="signup_body_text">
-  7. By signing up for the Humans vs. Zombies game, I agree not to display Nerf-style toys in academic
-  buildings or use Nerf-style toys which resemble real weapons. I understand that displaying a Nerf-style
-  toy in an academic building, or using a Nerf-style toy which resembles a real weapon is grounds for
-  removal from the game. Interpretation of “resembling real weapons” is left to the discretion of the
-  moderators. Complaints about realistic-looking Nerf-style toys made by a non-player arc grounds for the
-  toy in question to be banned. Nerf-style toys must have a visible blaze-orange tip.
+  7. By signing up for the Humans vs. Zombies game, I agree not to display Nerf-style blasters in academic buildings or use Nerf-style blasters which resemble real weapons. I understand that using a Nerf-style blaster in an academic building, or using a Nerf-style blaster which resembles a real weapon is grounds for removal from the game. Interpretation of “resembling real weapons” is left to the discretion of the moderators and the acting safety officer. Complaints about realistic-looking Nerf-style blasters made by a non-player may be grounds for the blaster in question to be banned. Nerf-style blasters must have a visible blaze-orange tip, be brightly colored (Not black or dark-tones), and have a brightly colored trigger.
   </div>
 
   <div class="signup_body_text">
-  8. By signing up for the Humans vs. Zombies game, I agree to leave my building in an evacuation
-  situation such as a fire alarm. I understand that the area I evacuate to is temporarily a safe zone for the
-  duration of the evacuation, and that I cannot be tagged (or tag another player) while going to or returning
-  from the evacuation area.
+  8. By signing up for the Humans vs. Zombies game, I agree to leave my building in an evacuation situation such as a fire alarm. I understand that the area I evacuate to is temporarily a safe zone for the duration of the evacuation, and that I cannot be tagged (or tag another player) while going to or returning from the evacuation area.
   </div>
 
   <div class="signup_body_text">
-  9. By signing up for the Humans vs. Zombies game, I take responsibility for any non-students who I bring
-  on to campus to play, and understand that I am responsible for their conduct and liable for any rules which
-  they violate.
+  9. By signing up for the Humans vs. Zombies game, I take responsibility for any non-students who I bring on to campus to play, and understand that I am responsible for their conduct and liable for any rules which they violate. Any non-student players <span class="accent_color">must be approved</span> by the acting E-Board and moderators.
+  </div>
+
+  <div class="signup_body_text">
+  10. By signing up for the Humans vs. Zombies game, I agree that I will have fun. I will not be a dick to other players, non-players, or administration. I will not take myself too seriously. I will enjoy life first, gameplay second, and remember to enjoy myself. We all love each other here, and by signing up for this game, I agree that I'm going to help contribute to the awesome community we have here.
   </div>
 
   <div id="signup_conduct_agree_container">

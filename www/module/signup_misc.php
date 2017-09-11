@@ -11,7 +11,7 @@
 </div>
 
 <div class="signup_header_text">
-  IMPORTANT: Sometimes email from us gets marked as spam. To make sure this does not happen, please WHITELIST our email account (mailer@muzombies.org) to make sure you get all important emails! Check your spam folder often.
+  IMPORTANT: Sometimes email from us gets marked as spam. To make sure this does not happen, please WHITELIST our email account (newpaltzhvz@gmail.com) to make sure you get all important emails! Check your spam folder often.
 </div>
 
   <?php if (isset($_GET['state'])): ?>

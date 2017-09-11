@@ -9,11 +9,9 @@
 
 #joingame_title
 {
-  font-family:    'nu-century-gothic', 'sans-serif';
   font-size:      25px;
-  letter-spacing: -1px;
+  font-weight:    bold;
   color:          #222222;
-  word-spacing:   -5px;
   width:           100%;
   padding:         0 0 5px 0px;
   margin:          0 0 30px 0;
@@ -30,7 +28,7 @@
 
 .joingame_content
 {
-  padding:        50px 20px 0 3px;
+  padding:        50px 0 0 3px;
   margin:         10px 0 10px 0;
   line-height:    18px;
   font-size:      14px;

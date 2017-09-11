@@ -1,66 +1,103 @@
-ul.rules
-{
-	list-style-type: none;
-	list-style-image: none;
-	list-style-position: inside;
+body {
+	color:				#000000;			
 }
 
-ol.rules
-{
-	list-style-type: decimal;
-	list-style-position: outside;
-	padding:  20px;
-	line-height:  20px;
+p {
+	margin:				5px;
 }
-ol.rules ol
-{
-	list-style-type: decimal;
+h1 {
+	font-family:		Rockwell;
+	font-size:			24px;
+	text-transform:		uppercase;
 }
-
-.even
-{
-  border-top:     1px solid #CCCCCC;
-  border-bottom:  1px solid #CCCCCC;
-  background:     #EEEEEE;
-  padding:        20px;
+h2 {
+	font-family:		Trebuchet;
+	font-size:			14px;
+	font-weight:		bold;
+}
+h3 {
+	font-size:			16px;
 }
 
-.odd
-{
-  padding:        20px;
+li {
+	font-size:			12px;
+	margin-top:			6px;
 }
 
-.rules_heading
-{
-  font-size:      18px;
-  font-weight:    bold;
+#rules {
+	width:				600px;
+	max-width:			100%;
+	margin:				auto;
+	padding:          	10px;
+	margin:           	0 auto;
+	line-height:		1.5;
 }
 
-.rules_header
-{
-  font-family:    'blue-bold', 'sans-serif';
-  font-size:      28px;
-  line-height:    16px;
-  letter-spacing: -1.5px;
-  padding:        0 0 15px 0;
+#general_rules {
+	background-color: 	#CCDFE8;
+	border-radius:    	10px;
+	padding:			15px;
+	line-height:		1.5;
 }
 
-#rules
-{
-  font-family:    "Trebuchet MS", "Tahoma", "Sans-Serf";
-  line-height:    20px;
-  margin:         30px 0 50px 0;
-  font-size:      13px;
-  
+#human_column {
+	background-color: #FFFFFF;
+	border-radius:    	10px;
+	margin:           	20px auto;
+	padding:			15px;
+	line-height:		1.5;
 }
 
-#rules div
-{
-  margin:         10px 5px 10px 5px;
 }
 
-.highlight
-{
-  padding:        7px;
-  background:     #F7FE2E;
+#zombie_column {
+	background-color: 	#CCDFE8;
+	border-radius:    	10px;
+	margin:           	20px auto;
+	padding:			15px;
+	line-height:		1.5;
+}
+
+#more_rules_column {
+	background-color: 	#FFFFFF;
+	border-radius:    	10px;
+	margin:           	20px auto;
+	padding:			15px;
+	line-height:		1.5;
+}
+
+
+ol.rules_list{
+    list-style-type: 	none;
+    list-style-type: 	decimal !ie; /*IE 7- hack*/
+     
+    margin: 			0;
+    margin-left: 		2em;
+    padding: 			0;
+     
+    counter-reset: 		li-counter;
+}
+ol.rules_list > li{
+    position: 			relative;
+    margin-bottom: 		20px;
+    padding-left: 		0.5em;
+    min-height: 		3em;
+}
+ol.rules_list > li:before {
+    position: 			absolute;
+    top: 				0;
+    left: 				-1.33em;
+    width: 				1.2em;
+    height: 			1.2em;
+     
+    font-size: 			2em;
+    line-height: 		1.2;
+    text-align: 		center;
+    color: 				#FCFFFB;
+ 
+    border: 			3px solid #c5c5c5;
+    border-radius: 		50%;
+    background-color: 	#FC974D;
+    content: 			counter(li-counter);
+    counter-increment: 	li-counter;
 }

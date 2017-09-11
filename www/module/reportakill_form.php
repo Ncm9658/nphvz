@@ -1,8 +1,7 @@
  <form id="reportakill" name="reportakill" action="http://<?php echo DOMAIN; ?>/report/submit" method="POST">
   
   <?php
-  $playerArray = $GLOBALS['Game']->GetPlayers($GLOBALS['state']['gid'], 'all', null, 'starve_time');
-
+    $playerArray = $GLOBALS['Game']->GetPlayers($GLOBALS['state']['gid'], 'all', null, 'starve_time');
   ?>
   
   <div class="reportakill_row">
@@ -70,7 +69,7 @@
                   $starve_time = $player['zombie_feed_timer'] + (60*60*48);
                   $hours_left = ceil(($starve_time - $now) / (60*60));
                   
-                  echo "<option value='{$player['uid']}'>{$player['name']} ($hours_left hours left)</option>";
+                  echo "<option value='{$player['uid']}'>{$player['name']} ($hours_left hours left, $kills kills)</option>";
                 }
               }
             }
@@ -81,7 +80,7 @@
     <div class="clearfix"></div>
   </div>
 
-  <div class="reportakill_row">
+  <!--<div class="reportakill_row">
     <div class="reportakill_label">
       Where did the kill occur?
     </div>     
@@ -153,13 +152,13 @@
       </select>
     </div>
     <div class="reportakill_form_location_input">
-      <a class="accent_color" href="http://<?php echo DOMAIN; ?>/img/campus_map.jpg" target="_new">View Map</a>
+      <a class="accent_color" href="http://<?php //echo DOMAIN; ?>/img/campus_map.jpg" target="_new">View Map</a>
     </div>
     <div class="reportakill_caption">
       (Optional)
     </div>
     <div class="clearfix"></div>
-  </div>
+  </div>-->
   
   <div class="reportakill_row">
     <div class="reportakill_label">

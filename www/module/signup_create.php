@@ -1,17 +1,21 @@
 <div id="signup_title">
-  Sign up <span class="accent_color">create an account</span>
-  </div>
-
-<div class="signup_header_text">
-  To play Humans vs. Zombies at Mizzou, you will need to sign up for an account. With this account you can then join the game for the current semester.
+  Sign Up<span class="accent_color pull_right">Create an Account</span>
 </div>
 
 <div class="signup_header_text">
-  You only need to create this account once. For future semesters, your account will persist between semesters allowing you to keep track of your lifetime HvZ statistics. You will need to revist the website each semester to join that semester's game (but you won't have to go through this setup process again).
+  To play Humans vs. Zombies at SUNY New Paltz, you will need to sign up for an account. With this account you can then join the game for the current semester.
 </div>
 
 <div class="signup_header_text">
-  To get started, please fill out the form below with a valid email address and create a password for your account. We strongly recommend using your <span class="accent_color bold">university email address</span>. We send critical game updates while the game is in progress and may periodically send you updates regarding future semester games.
+  You only need to create this account once. For future semesters, you'll just need to log in and sign up for the appropriate game. This will make things easier for you to keep track of your lifetime gameplay stats in your online profile.
+</div>
+
+<div class="signup_header_text">
+  To get started, please fill out the form below with a valid email address and create a password for your account. You will be sent a confirmation email with a link to activate your account. We strongly recommend using your <span class="accent_color bold">university email address</span>. We send critical game updates while the game is in progress and may periodically send you updates regarding future semester games.
+</div>
+
+<div class="signup_header_text">
+  Thanks for playing, and happy hunting!
 </div>
   
   <?php if (isset($_GET['state'])): ?>
