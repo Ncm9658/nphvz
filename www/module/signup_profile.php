@@ -67,7 +67,7 @@
   <div class="signup_header_text">
     <div class="signup_header_text">
       <div class="fb_button fb_button_medium">
-        <a class="fb_button_link" href="https://graph.facebook.com/oauth/authorize?client_id=<?php echo FB_APP_ID?>&redirect_uri=http://nphvz.com/oauth/init">
+        <a class="fb_button_link" href="https://graph.facebook.com/v2.10/oauth/access_token?client_id=<?php echo FB_APP_ID?>&redirect_uri=http://nphvz.com/oauth/init">
             <span class="fb_button_text">Connect with Facebook</span>
         </a>
       </div>
@@ -115,10 +115,10 @@
       
     </form>
   </div> 
-  <?php endif ?>
+<?php endif ?>
   
   
-  <?php if ($_GET['state'] == 'pending'): ?>
+<?php if ($_GET['state'] == 'pending'): ?>
   
   <div class="signup_header_text">
     Your account status is currently pending approval. A Moderator will soon review your account and approve it. You will receive an email once your account is approved. Note that cannot join a game until your account is approved. If you don't want to wait, you can link your account with Facebook to receive automatic approval.
@@ -127,7 +127,7 @@
   <div class="signup_header_text">
     <div class="signup_header_text signup_header_2col_left">
       <div class="signup_header_fb_button fb_button fb_button_medium">
-        <a class="fb_button_link" href="https://graph.facebook.com/oauth/authorize?client_id=<?php echo FB_APP_ID?>&redirect_uri=http://nphvz.com/oauth/init">
+        <a class="fb_button_link" href="https://graph.facebook.com/v2.10/oauth/access_token?client_id=<?php echo FB_APP_ID?>&redirect_uri=http://nphvz.com/oauth/init">
             <span class="fb_button_text">Connect with Facebook</span>
         </a>
       </div>
@@ -142,5 +142,5 @@
     * This will connect automatically with whomever is currently logged into Facebook on this computer. You will be asked to authorize our Facebook application so we can access your username and photo.
   </div>
   
-  <?php endif ?>
+<?php endif ?>
   
